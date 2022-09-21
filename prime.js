@@ -1,9 +1,9 @@
-function primeCheck(){
+function primeCheck(number){
   for(let i = 2; i < num**0.5; i++){
-    if(num % i == 0)
+    if(nummber % i == 0)
        return false;
   }
   return true;
 }
 
-console.log(primeCheck());
+console.log(primeCheck(19));
